@@ -10,8 +10,11 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <?php
-        // put your code here
-        ?>
+        <form action="Unir.php">
+        Novio: <input type="text" name= "novio"><br>        
+        Novia: <input type="text" name= "novia"><br>
+        <input type="submit" name= "unir" value= "Unir">
+        </form>
+        
     </body>
 </html>
